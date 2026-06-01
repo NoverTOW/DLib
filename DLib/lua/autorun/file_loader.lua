@@ -1,3 +1,6 @@
+if SERVER then
+    resource.AddWorkshop(3736951255) -- Content
+end
 
 local loaderConfig = {
     root = "library", 
