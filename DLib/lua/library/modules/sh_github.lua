@@ -1,6 +1,6 @@
 DLIB_REPO = "NoverTOW/DLib"
-DLIB_CURRENT_VERSION = "1.01" 
-DLIB_LAST_COMMIT_DATE = "2026-05-31"
+DLIB_CURRENT_VERSION = "v1.1" 
+DLIB_LAST_COMMIT_DATE = "2026-06-01"
 
 
 local function CheckDLibUpdates()
@@ -42,7 +42,7 @@ local function CheckDLibUpdates()
         end
         
 
-        print("[DLib] Текущая версия: v1.0 от 31.05.2026")
+        print("[DLib] Текущая версия: v1.1 от 01.06.2026")
         print("[DLib] Хеш последнего коммита: " .. lastCommitHash)
         
     end, function(error)
